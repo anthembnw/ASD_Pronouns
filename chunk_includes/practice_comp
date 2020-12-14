@@ -1,0 +1,112 @@
+<style media="screen" type="text/css"> 
+div { 
+   width: 50em; 
+   font-size:large; 
+   padding-left: 1em;
+   padding-right: 1em;
+   padding-bottom: -1em;
+   }
+   
+h1 {
+   margin-top:1em;
+   margin-bottom:.5em;
+   text-align: center;
+   }
+   
+p { 
+   font-size: large;
+   text-align: justify; 
+   font-family: "Times New Roman", Times, serif;
+
+   }
+  
+body {
+    color: white;
+    background-color: black;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .5em;
+    font-size: 15pt;
+}
+
+   
+</style>
+
+
+<html>
+
+<html>
+  
+<div id="WelcomeScreen" name="WelcomeScreen" style="margin: 0 auto; text-align: justify; border:1px solid white; background-color:black"; width:50%>
+<center>
+  <h1> Welcome! </h1>
+  <i> Thank you for participating in this study! </i>
+</center>
+<br>
+<hr><br>
+<p>In this study, you will be reading sentences! The task is roughly 25 minutes long. Your task is to answer questions about the sentence you just read. You will use your mouse to choose the 
+answer you think is best on your screen.</p>
+<p>You will start by reading a few sentences to practice. There are <b>3</b> sentences in this practice introduction.</p>
+<br>
+ 
+<hr>
+
+<b><u><p style="margin-bottom:.4em;">Some tips and reminders:</p></u></b>
+<ul>
+  <li>Respond as quickly as you can.</li>
+  <li>You will not be able to pause the study after starting! So please give yourself 30-40 minutes of uninterrupted time!</li>
+  <li>Make sure to pay attention to the sentences too. There will be comprehension questions about the content of the sentences.</li>
+</ul>
+<br>
+
+<hr>
+<b><u><p style="margin-bottom:.4em;">Comprehension Check:</p></u></b>
+
+<font>
+  1. <i>What is your task?</i><br>
+  <td>
+    <input name="question1r" type="radio" value="left" class="obligatory" id="q1left" /><label for="q1left"> Chose answer on my screen</label><br>
+    <input name="question1r" type="radio" value="right" id="q1right"/><label for="q1right"> Read sentences and use mouse to click on best choice that answers the question and pay attention to the sentences!</label>
+  </td>
+<br><br>
+  
+  2. <i>How long will the task last?</i><br>
+  <td>
+    <input name="question2l" type="radio" value="left" class="obligatory" id="q2left" /><label for="q2left"> About 25 minutes</label><br>
+    <input name="question2l" type="radio" value="right" class= id="q2right"/><label for="q2right"> Exactly 25 minutes</label>
+  </td>
+<br><br>
+  
+  3. <i>How many sentences will I read in the practice introduction?</i><br>
+  <td>
+    <input name="question3r" type="radio" value="left" class="obligatory" id="q3left" /><label for="q3left"> 4!</label><br>
+    <input name="question3r" type="radio" value="right" class= id="q3right"/><label for="q3right"> 3!</label>
+  </td>
+<br><br>
+  
+    4. <i>Is your screen in Full screen mode?</i><br>
+  <td>
+    <input name="question4l" type="radio" value="left" class="obligatory" id="q4left" /><label for="q4left"> Yes!</label><br>
+    <input name="question4l" type="radio" value="right" class= id="q4right"/><label for="q4right"> No!</label>
+  </td>
+<br><br>
+  
+  </tr>
+ <p>
+    <input type="text" style="width: 400px; height: 30px; color: red; font-size: 16; font-weight: bold; font-family: 'Times New Roman', Times, serif;" class="obligatory" class="obligatory" name="continue" onfocus="if(this.value == 'To continue, please type: Ready') { this.value = ''; }" value="To continue, please type: Ready"/>
+  </p>
+  <p> Then press Enter to continue!</p>
+  <br><br>
+  
+<td colspan="2">
+<label class="error" for="intro"></label>
+</td>
+</tr>
+
+
+</div>
+
+<br><br>
+  
+</html>
+
