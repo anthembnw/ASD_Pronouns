@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title> Experiment Questionnaire </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style type="text/css">
+div { 
+   width: 50em; 
+   font-size:large; 
+   padding-left: 1em;
+   padding-right: 1em;
+   padding-bottom: -1em;
+   }
+   
+h1 {
+   margin-top:1em;
+   margin-bottom:.5em;
+   text-align: center;
+   }
+   
+p { 
+   font-size: large;
+   text-align: justify;  
+   font-family: "Times New Roman", Times, serif;
+   
+   }
+  
+body {
+    color: white;
+    background-color: black;
+    margin-left: .5em;
+    margin-right: .5em;
+    margin-top: .5em;
+    font-size: 15pt;
+    font-family: "Times New Roman", Times, serif;
+}
+
+
+    input[type=submit] {
+      width: 500px;
+      height: 100px;
+      cursor:pointer;
+      font-family: "Times New Roman", Times, serif;
+
+    }
+  </style>
+</head>
+  
+<!--
+BEFORE THE PAGE CONTENT
+You might want to cache the images you are using in the experiment
+if timings are going to be recorded during the experiment.
+Below is an example of how to load an image without showing it.
+-->
+<div style="display:none">
+  <!-- List images here in the same syntax -->
+  <source src="https://github.com/anthonyyacovone/PM_audio_files/blob/master/PM_master_test_withBeeps.mp3?raw=true" type="audio/mpeg">
+  <source src="https://github.com/anthonyyacovone/PM_audio_files/blob/master/PM_master_test_pSounds.mp3?raw=true" type="audio/mpeg">
+  <source src="https://github.com/anthonyyacovone/PM_audio_files/blob/master/PM_master_practice_withBeeps.mp3?raw=true" type="audio/mpeg">
+  <source src="https://github.com/anthonyyacovone/PM_audio_files/blob/master/PM_master_practice_pSounds.mp3?raw=true" type="audio/mpeg">
+</div>
+
+<!-- Start of the actual, visible body of the file -->
+<form style="width: 70%; margin-top: 2em;">
+
+<div id="WelcomeScreen" name="WelcomeScreen" style="margin: 0 auto; text-align: justify; border:1px solid white; background-color:black"; width:50%>
+
+<center>
+  <h1> Study Information! </h1>
+  <i> Please read this consent agreement carefully before deciding whether to participate in this study. </i><br>
+</center>
+  <hr><br>
+  
+<h3><u>Why is this research being done?</u></h3> This study explores how people understand pronouns in sentences and what information they use (either present in the sentence or context) to comprehend the pronouns. To do this, we 
+study pronoun comprehension in linguistic tasks and mental states in social tasks. We will be comparing the performance of autistic individuals and non-autistic individuals.   
+ 
+<h3><u>How long will the research last and what will I need to do? </u></h3> In this experiment, You will be asked to complete several online tasks, including standardized assessments, a language task (answering who the pronoun is referring to), 
+and a theory of mind task (making inferences about other people’s beliefs/thoughts). More detailed information about these tasks is included below. This task is estimated to take about 30-70 minutes based on previous participants' reported times; however, it may take longer. 
+
+<h3><u>Risks:</u></h3> There are no anticipated risks associated with participating in this study.
+ 
+<h3><u>Benefits:</u></h3> There are no anticipated benefits to the participant beyond whatever amusement you happen to derive from the task.
+ 
+<h3><u>Selection of participants:</u></h3> To participate in this study, you must be 18 years of age and a <u>native speaker</u> of English.
+ 
+<h3><u>Compensation:</u></h3> Your compensation for completing this task will be $15.00. This is what you agreed to before accepting to participate in this study.
+ 
+<h3><u>Confidentiality:</u></h3> Your participation in this study will remain confidential. We do not have access to your identity.
+ 
+<h3><u>Participation and withdrawal:</u></h3> Your participation in this study is completely voluntary, and you may quit at any time without penalty or loss of benefit to which you may otherwise be entitled.<br>
+ 
+ <h3><u>Detailed Information:</u></h3> The following is more detailed information about this study in addition to the information listed above. 
+ 
+ <h3><u>What is the purpose of this research?</u></h3> In communication, we often rely on the use of pronouns to help make our communication more efficient. Some pronouns that we use require the understanding of 
+ what other’s might be thinking or their expectations. Some studies have suggested that autistic individuals could have difficulty with pronoun use because of the population’s known difficulty with knowing other’s 
+ mental states. This study test that theory by assessing pronoun comprehension in autistic and non-autistic individuals.  
+ 
+ <h3><u>What can I expect if I take part in this research?</u></h3> You will be asked to complete several tasks, each of which is outlined below. All tasks will be completed online.
+
+<p>Standardized Assessments:  You will be asked to complete the autism-spectrum quotient (AQ) and a brief Demographic and Background History Survey. These measures will take less than 30 minutes to complete.</p>
+<p>Theory of Mind Task: In this task you will be asked to two questions each about a couple of short social situations. This task will take about 10 minutes.</p>
+<p>Pronoun Comprehension Task: In this task, you will read or hear linguistic input and will be asked to identify who/what specific pronouns are referring to in sentences. 
+Some sentences may be easy, and others may be more challenging. This task will take about 25 minutes.</p>
+ 
+ <h3><u>If I take part in this research, how will my privacy be protected? What happens to the information you collect?</u></h3>
+ 
+ <p>Efforts will be made to limit the use and disclosure of your Personal Information, including records, to people who have a need to review this information. We cannot promise complete secrecy. 
+ Organizations that may inspect and copy your information include the IRB and other representatives of this organization.</p>
+ <p>If identifiers are removed from your identifiable private information or identifiable data that are collected during this research, that information or data could be used for future research studies 
+ or distributed to another investigator for future research studies without your additional informed consent.</p> 
+ 
+<hr>
+<h3><u>Contact:</u></h3> If you have questions or concerns about this research, please contact:
+ 
+<p><b>Tobi Abubakare (oluwatobi_abubakare@g.harvard.edu)</b></p>
+ 
+<p>You may also contact the faculty member supervising this work: Jesse Snedeker (snedeker@wjh.harvard.edu). </p>
+ 
+<p><b>This research has been reviewed and approved by the Harvard University Area Institutional Review Board (“IRB”). You may talk to them at (617) 496-2847 or cuhs@harvard.edu if: 
+•	Your questions, concerns, or complaints are not being answered by the research team.
+•	You cannot reach the research team.
+•	You want to talk to someone besides the research team.
+•	You have questions about your rights as a research subject.
+•	You want to get information or provide input about this research.</b></p>
+
+<p><b>Please print or save a copy of this page for your records.</b></p>
+
+<p>Your participation in this
+study is purely voluntary. You may withdraw from this study at any time, though note that doing so means that you agree to
+forfeit payment.</p> <br>
+  
+</table>
+
+</td>
+</tr>
+<tr>
+</tr>
+<tr>
+  <td colspan="2" style="padding-bottom: 1em;"> <b>By participating in this experiment I confirm that I understand the purpose of the research, the study procedures that I will undergo and the possible risks and discomforts as well as benefits that I may experience.  I have read and I understand these terms of consent.  Therefore, I agree to give my consent to participate as a subject in this research project.</b></td><p></p>
+  <td colspan="2" style="padding-bottom: 1em;"><input type="text" style="width: 200px; height: 30px; color: red; font-size: 16; font-weight: bold; font-family: 'Times New Roman', Times, serif;" class="obligatory" name="consent" onfocus="if(this.value == 'Please type: I consent') { this.value = ''; }" value="Please type: I consent"/></td> 
+
+<p>Then press Enter to continue! 
+
+</tr>
+<tr>
+<td colspan="2">
+<label class="error" for="consent"></label>
+</td>
+</tr>
